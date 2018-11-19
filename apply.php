@@ -4,7 +4,7 @@ header("Content-type:text/html;charset=utf-8");
 $serverName = "localhost";
 $userName = "root";
 $password = "";
-$dbName = "dianzhihun_pingpang";
+$dbName = "dianzhihun_badminton";
 echo"！";
     // 创建连接
     $conn = new mysqli($serverName, $userName, $password, $dbName);
